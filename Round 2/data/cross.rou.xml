@@ -1,0 +1,82 @@
+<routes>
+            <vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="15" guiShape="passenger"/>
+            <vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="15" guiShape="passenger"/>
+            <route id="right" edges="51o 1i 2o 52i" />
+            <route id="left" edges="52o 2i 1o 51i" />
+            <route id="down" edges="54o 4i 3o 53i" />
+            <route id="up" edges="53o 3i 4o 54i" />
+    <vehicle id="down_0" type="typeNS" route="down" depart="0" color="1,0,0"/>
+    <vehicle id="right_1" type="typeWE" route="right" depart="1" />
+    <vehicle id="down_2" type="typeNS" route="down" depart="1" color="1,0,0"/>
+    <vehicle id="up_3" type="typeNS" route="up" depart="1" color="1,0,0"/>
+    <vehicle id="right_4" type="typeWE" route="right" depart="3" />
+    <vehicle id="up_5" type="typeNS" route="up" depart="3" color="1,0,0"/>
+    <vehicle id="right_6" type="typeWE" route="right" depart="4" />
+    <vehicle id="up_7" type="typeNS" route="up" depart="4" color="1,0,0"/>
+    <vehicle id="right_8" type="typeWE" route="right" depart="6" />
+    <vehicle id="left_9" type="typeWE" route="left" depart="6" />
+    <vehicle id="up_10" type="typeNS" route="up" depart="7" color="1,0,0"/>
+    <vehicle id="down_11" type="typeNS" route="down" depart="9" color="1,0,0"/>
+    <vehicle id="up_12" type="typeNS" route="up" depart="9" color="1,0,0"/>
+    <vehicle id="up_13" type="typeNS" route="up" depart="10" color="1,0,0"/>
+    <vehicle id="up_14" type="typeNS" route="up" depart="11" color="1,0,0"/>
+    <vehicle id="right_15" type="typeWE" route="right" depart="12" />
+    <vehicle id="up_16" type="typeNS" route="up" depart="13" color="1,0,0"/>
+    <vehicle id="up_17" type="typeNS" route="up" depart="14" color="1,0,0"/>
+    <vehicle id="right_18" type="typeWE" route="right" depart="15" />
+    <vehicle id="up_19" type="typeNS" route="up" depart="15" color="1,0,0"/>
+    <vehicle id="right_20" type="typeWE" route="right" depart="16" />
+    <vehicle id="up_21" type="typeNS" route="up" depart="16" color="1,0,0"/>
+    <vehicle id="right_22" type="typeWE" route="right" depart="17" />
+    <vehicle id="up_23" type="typeNS" route="up" depart="17" color="1,0,0"/>
+    <vehicle id="right_24" type="typeWE" route="right" depart="18" />
+    <vehicle id="up_25" type="typeNS" route="up" depart="18" color="1,0,0"/>
+    <vehicle id="down_26" type="typeNS" route="down" depart="19" color="1,0,0"/>
+    <vehicle id="up_27" type="typeNS" route="up" depart="19" color="1,0,0"/>
+    <vehicle id="right_28" type="typeWE" route="right" depart="20" />
+    <vehicle id="up_29" type="typeNS" route="up" depart="20" color="1,0,0"/>
+    <vehicle id="left_30" type="typeWE" route="left" depart="21" />
+    <vehicle id="up_31" type="typeNS" route="up" depart="21" color="1,0,0"/>
+    <vehicle id="right_32" type="typeWE" route="right" depart="22" />
+    <vehicle id="up_33" type="typeNS" route="up" depart="24" color="1,0,0"/>
+    <vehicle id="right_34" type="typeWE" route="right" depart="25" />
+    <vehicle id="down_35" type="typeNS" route="down" depart="25" color="1,0,0"/>
+    <vehicle id="up_36" type="typeNS" route="up" depart="25" color="1,0,0"/>
+    <vehicle id="right_37" type="typeWE" route="right" depart="26" />
+    <vehicle id="up_38" type="typeNS" route="up" depart="27" color="1,0,0"/>
+    <vehicle id="right_39" type="typeWE" route="right" depart="28" />
+    <vehicle id="down_40" type="typeNS" route="down" depart="28" color="1,0,0"/>
+    <vehicle id="up_41" type="typeNS" route="up" depart="28" color="1,0,0"/>
+    <vehicle id="right_42" type="typeWE" route="right" depart="29" />
+    <vehicle id="right_43" type="typeWE" route="right" depart="30" />
+    <vehicle id="down_44" type="typeNS" route="down" depart="30" color="1,0,0"/>
+    <vehicle id="up_45" type="typeNS" route="up" depart="30" color="1,0,0"/>
+    <vehicle id="right_46" type="typeWE" route="right" depart="31" />
+    <vehicle id="up_47" type="typeNS" route="up" depart="31" color="1,0,0"/>
+    <vehicle id="up_48" type="typeNS" route="up" depart="32" color="1,0,0"/>
+    <vehicle id="right_49" type="typeWE" route="right" depart="33" />
+    <vehicle id="up_50" type="typeNS" route="up" depart="33" color="1,0,0"/>
+    <vehicle id="up_51" type="typeNS" route="up" depart="34" color="1,0,0"/>
+    <vehicle id="right_52" type="typeWE" route="right" depart="35" />
+    <vehicle id="up_53" type="typeNS" route="up" depart="35" color="1,0,0"/>
+    <vehicle id="down_54" type="typeNS" route="down" depart="36" color="1,0,0"/>
+    <vehicle id="up_55" type="typeNS" route="up" depart="36" color="1,0,0"/>
+    <vehicle id="right_56" type="typeWE" route="right" depart="37" />
+    <vehicle id="right_57" type="typeWE" route="right" depart="38" />
+    <vehicle id="up_58" type="typeNS" route="up" depart="38" color="1,0,0"/>
+    <vehicle id="right_59" type="typeWE" route="right" depart="39" />
+    <vehicle id="up_60" type="typeNS" route="up" depart="40" color="1,0,0"/>
+    <vehicle id="right_61" type="typeWE" route="right" depart="41" />
+    <vehicle id="up_62" type="typeNS" route="up" depart="41" color="1,0,0"/>
+    <vehicle id="down_63" type="typeNS" route="down" depart="42" color="1,0,0"/>
+    <vehicle id="up_64" type="typeNS" route="up" depart="42" color="1,0,0"/>
+    <vehicle id="right_65" type="typeWE" route="right" depart="43" />
+    <vehicle id="right_66" type="typeWE" route="right" depart="44" />
+    <vehicle id="down_67" type="typeNS" route="down" depart="44" color="1,0,0"/>
+    <vehicle id="up_68" type="typeNS" route="up" depart="44" color="1,0,0"/>
+    <vehicle id="up_69" type="typeNS" route="up" depart="45" color="1,0,0"/>
+    <vehicle id="up_70" type="typeNS" route="up" depart="46" color="1,0,0"/>
+    <vehicle id="up_71" type="typeNS" route="up" depart="47" color="1,0,0"/>
+    <vehicle id="right_72" type="typeWE" route="right" depart="48" />
+    <vehicle id="right_73" type="typeWE" route="right" depart="49" />
+</routes>
